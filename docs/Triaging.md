@@ -9,8 +9,8 @@ When an issue is opened, it will be labeled as one of the following:
 - `**bug**` : Unconfirmed issue with the internal project.
 - `**feature**` : A proposal or request for a new functionality or enhancement in the project.
 - `**question**` : A request for further information or clarification about the project.
-### Issue Triaging Flow
-![Triage Flow](/.eraser/cDny8MgPaKrRGdpdHL6q___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---o0PFBXVSb66-huEbIU8eo---figure---Jj8tGTS_zF1rqDgU36CSZQ.png "Triage Flow")
+### Issue Triaging Flow (Shin's New Change)
+![Triage Flow](/.eraser/cDny8MgPaKrRGdpdHL6q___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---evSFowO310ug-gLDikdVw---figure---Jj8tGTS_zF1rqDgU36CSZQ.png "Triage Flow")
 
 When a tech lead receives an issue, they should first determine its type. Once the type is identified, they can then proceed with the following steps:
 

@@ -7,7 +7,7 @@ Are you ready to deploy your Solid application? Follow our guides to different d
 [﻿Flightcontrol](https://www.flightcontrol.dev/) is a platform that fully automates deployments to Amazon Web Services (AWS).
 For more information on Flightcontrol's capabilities, you can [﻿visit their docs](https://www.flightcontrol.dev/docs).
 
-![Deploy git repository](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---uk5ygfRf9x0MuRTpwuRJA---figure---hUo5aw8bIOyvnIK3PtuLNQ.png "Deploy git repository")
+![Deploy git repository](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---Y9YW37Fkasu4U3nZ6ldgY---figure---hUo5aw8bIOyvnIK3PtuLNQ.png "Deploy git repository")
 
 ### Connecting to a git repository
 Flightcontrol offers a GitHub integration, leveraging its continuous development actions. 
@@ -20,7 +20,7 @@ It automatically detects any new pushes to your specified GitHub branches and bu
 The build process uses the commands in your `package.json` file and adheres to the settings that you have configured in Flightcontrol.
 No additional setup is needed.
 
-![Services offered in Flightcontrol](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---m6gCZ0hJqiH_-SQF51zpP---figure---jU_74a1zIXAxHGhbJapjAw.png "Services offered in Flightcontrol")
+![Figure 1](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---hkgO60Q41B6uZwWEyUM-Z---figure---j6jzLrgzgRAjsijnMNvyDQ.png "Figure 1")
 
 ### Using the dashboard
 1. In the Flightcontrol dashboard, create a new project and select the repository you wish to use as the source.

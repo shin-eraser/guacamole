@@ -1,4 +1,4 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/ekwXbfb1Z244qQFoiAvF" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+<p><a target="_blank" href="https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # Deployment Options
 Are you ready to deploy your Solid application? Follow our guides to different deployment services.
@@ -6,8 +6,6 @@ Are you ready to deploy your Solid application? Follow our guides to different d
 ## AWS via Flightcontrol
 [﻿Flightcontrol](https://www.flightcontrol.dev/) is a platform that fully automates deployments to Amazon Web Services (AWS).
 For more information on Flightcontrol's capabilities, you can [﻿visit their docs](https://www.flightcontrol.dev/docs).
-
-![Deploy git repository](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---QN1YHccxleTQ6Fjit-8DW---figure---hUo5aw8bIOyvnIK3PtuLNQ.png "Deploy git repository")
 
 ### Connecting to a git repository
 Flightcontrol offers a GitHub integration, leveraging its continuous development actions. 
@@ -20,13 +18,13 @@ It automatically detects any new pushes to your specified GitHub branches and bu
 The build process uses the commands in your `package.json` file and adheres to the settings that you have configured in Flightcontrol.
 No additional setup is needed.
 
-![Figure 1](/.eraser/ekwXbfb1Z244qQFoiAvF___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---m_ExPXemLWBADXIXgLNpw---figure---j6jzLrgzgRAjsijnMNvyDQ.png "Figure 1")
+![DOM Change](undefined "DOM Change")
 
 ### Using the dashboard
 1. In the Flightcontrol dashboard, create a new project and select the repository you wish to use as the source.
 2. Choose the GUI as your configuration type.
 3. Add your Solid site as a static site by clicking the "Add a Static Site" option.
-4. Label your output directory as `dist` .
+4. Label your output directory as `dist`  .
 5. If your project requires environment variables, add them in the designated area:
 6. Finally, connect your AWS account to complete the setup.
 ### Using code
@@ -77,9 +75,8 @@ Choose the repository that contains your Solid project.
 - For the "build output directory" field, use `dist`  . 
 - Add an environment variable `NODE_VERSION`  and set its value to the version of Node.js you're using.
 **Note:** This step is crucial because Cloudflare Pages uses a version of Node.js older than v13, which may not fully support Vite, the bundler used in Solid projects.
-
 1. Once you've configured the settings, click "Save and Deploy."
-In a few minutes, your Solid project will be live on Cloudflare Pages, accessible via a URL formatted as `project_name.pages.dev` .
+In a few minutes, your Solid project will be live on Cloudflare Pages, accessible via a URL formatted as `project_name.pages.dev`  .
 ### Using the Wrangler CLI
 Wrangler is a command-line tool for building Cloudflare Workers.
 Here are the steps to deploy your Solid project using Wrangler.
@@ -125,8 +122,8 @@ pnpm i -g firebase-tools
 yarn global add firebase-tools
 ```
 1. Execute the `firebase login`  command to ensure you're logged into the Firebase account associated with your project.
-2. In the root directory of your Solid project, create two new files: `firebase.json`  and `.firebaserc` .
-- In `firebase.json` , add the following code:
+2. In the root directory of your Solid project, create two new files: `firebase.json`  and `.firebaserc`  .
+- In `firebase.json`  , add the following code:
 ```jsonld
 {
   "hosting": {
@@ -135,7 +132,7 @@ yarn global add firebase-tools
   }
 }
 ```
-- In `.firebaserc` , insert the following code (replace `<YOUR_FIREBASE_PROJECT_ID>`  with your Firebase project ID):
+- In `.firebaserc`  , insert the following code (replace `<YOUR_FIREBASE_PROJECT_ID>`  with your Firebase project ID):
 ```bash
 {
   "projects": {
@@ -144,8 +141,7 @@ yarn global add firebase-tools
 }
 ```
 1. Run `npm run build`  , followed by `firebase deploy`  to build and deploy your project.
-Upon completion, a `Hosting URL` will be displayed, indicating the live deployment of your project.
-
+Upon completion, a `Hosting URL`  will be displayed, indicating the live deployment of your project.
 ## Netlify
 [﻿Netlify](https://www.netlify.com/) is a widely-used hosting platform suitable for various types of projects.
 For detailed guidance on build procedures, deployment options, and the range of features available, you can visit the [﻿Netlify documentation](https://docs.netlify.com/).
@@ -155,7 +151,7 @@ For detailed guidance on build procedures, deployment options, and the range of 
 Once logged in, you will be take to your dashboard. Click the `New site from Git`  button to start a new project.
 2. On the following page, choose "Connect to GitHub" or your preferred Git repository hosting service.
 3. After selecting your Solid project repository, you'll be directed to a configuration screen.
-Update the "Publish directory" field from `netlify`  to `dist` . Then, click "Deploy" to start the deployment process.
+Update the "Publish directory" field from `netlify`  to `dist`  . Then, click "Deploy" to start the deployment process.
 4. Once the build and deployment are complete, you will be taken to a screen that displays the URL of your live site.
 ### Using the Netlify CLI
 1. Install the Netlify CLI using your preferred package manager:
@@ -174,7 +170,6 @@ This is crucial for a seamless project setup and deployment.
 Authenticate using one of the supported login options.
 2. Follow the on-screen instructions from the CLI. When prompted for the 'Directory to deploy,' specify `dist`  — this is where Solid stores the built project files.
 After completing the process, your project will be deployed on Netlify and can be accessed via the provided URL.
-
 ## Railway
 [﻿Railway](https://railway.app/) is a well-known platform for deploying a variety of web and cloud-based projects.
 For an in-depth look at the features offered by Railway, as well as detailed deployment guidelines, you can consult the [﻿Railway documentation](https://docs.railway.app/).
@@ -209,7 +204,6 @@ After a successful deployment, a confirmation screen will appear.
 4. Railway does not automatically assign a domain to your project.
 To do this, go to the settings and manually generate a domain for your deployed project.
 Once a domain has been generated, your Solid project should be live.
-
 ### Using the Railway CLI
 1. Using your preferred package manager and install the Railway CLI:
 ```bash
@@ -267,4 +261,4 @@ Once completed, your project will be live on Vercel and accessible via the provi
 
 
 
-<!--- Eraser file: https://app.eraser.io/workspace/ekwXbfb1Z244qQFoiAvF --->
+<!--- Eraser file: https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w --->

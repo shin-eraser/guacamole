@@ -18,7 +18,7 @@ It automatically detects any new pushes to your specified GitHub branches and bu
 The build process uses the commands in your `package.json` file and adheres to the settings that you have configured in Flightcontrol.
 No additional setup is needed.
 
-![DOM Change](/.eraser/pottgGTNbnJ68JsynL0w___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---fiRyMf6MaiaczEwlbXupN---figure---_uPqveB5iKpMo1NjAbT8Kw.png "DOM Change")
+![DOM Change](undefined "DOM Change")
 
 ### Using the dashboard
 1. In the Flightcontrol dashboard, create a new project and select the repository you wish to use as the source.

@@ -1,8 +1,12 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/TxquDrc8BqCod8F78rv2" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+<p><a target="_blank" href="https://qa.eraser.io/workspace/ykZK5apSyPeEs5spmt7e" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+
+Added some text here
+
+
 
 Respective tech leads are responsible for triaging every issue and PR opened in the internal repository within a reasonable turnaround time.
 
->  Note: For documentation changes, please initiate discussions using [﻿this template](https://github.com/company/internal-repo/discussions/new?category=ideas). 
+>   Note: For documentation changes, please initiate discussions using [﻿this template](https://github.com/company/internal-repo/discussions/new?category=ideas).  
 
 When an issue is opened, it will be labeled as one of the following:
 
@@ -10,7 +14,9 @@ When an issue is opened, it will be labeled as one of the following:
 - `**feature**`  : A proposal or request for a new functionality or enhancement in the project.
 - `**question**`  : A request for further information or clarification about the project.
 ### Issue Triaging Flow
-![Triage Flow](/.eraser/TxquDrc8BqCod8F78rv2___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---Bzy1l8Z7tRHjJQ1QUEguL---figure---PC72Pg5SgOPWn7TLrVkoBg.png "Triage Flow")
+![Triage Flow](undefined "Triage Flow")
+
+
 
 When a tech lead receives an issue, they should first determine its type. Once the type is identified, they can then proceed with the following steps:
 
@@ -27,4 +33,5 @@ When a tech lead receives an issue, they should first determine its type. Once t
 
 
 
-<!--- Eraser file: https://app.eraser.io/workspace/TxquDrc8BqCod8F78rv2 --->
+
+<!--- Eraser file: https://qa.eraser.io/workspace/ykZK5apSyPeEs5spmt7e --->

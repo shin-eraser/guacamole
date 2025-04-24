@@ -1,4 +1,4 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+<p><a target="_blank" href="https://qa.eraser.io/workspace/8svY3kKDdFE4IEUoweeu" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # Deployment Options
 Are you ready to deploy your Solid application? Follow our guides to different deployment services.
@@ -18,7 +18,9 @@ It automatically detects any new pushes to your specified GitHub branches and bu
 The build process uses the commands in your `package.json` file and adheres to the settings that you have configured in Flightcontrol.
 No additional setup is needed.
 
-![DOM Change](/.eraser/pottgGTNbnJ68JsynL0w___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---kOOK6KBGvBEOZMSPyucgL---figure---_uPqveB5iKpMo1NjAbT8Kw.png "DOM Change")
+![DOM Change](undefined "DOM Change")
+
+
 
 ### Using the dashboard
 1. In the Flightcontrol dashboard, create a new project and select the repository you wish to use as the source.
@@ -261,4 +263,10 @@ Once completed, your project will be live on Vercel and accessible via the provi
 
 
 
-<!--- Eraser file: https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w --->
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/docs/deployment-sequence-diagram-1.eraserdiagram" data-element-id="YXqiSLB6ucNDg5t8AmoFm"><img src="/.eraser/8svY3kKDdFE4IEUoweeu___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----b9ff8ff96807345e69b6d13413d95ec6.png" alt="" data-element-id="YXqiSLB6ucNDg5t8AmoFm" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
+<!--- Eraser file: https://qa.eraser.io/workspace/8svY3kKDdFE4IEUoweeu --->

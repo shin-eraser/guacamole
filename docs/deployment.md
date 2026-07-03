@@ -1,11 +1,11 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+<p><a target="_blank" href="https://app.eraser.io/workspace/8FtXNYdisv9KJlujwqnT" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # Deployment Options
 Are you ready to deploy your Solid application? Follow our guides to different deployment services.
 
 ## AWS via Flightcontrol
-[﻿Flightcontrol](https://www.flightcontrol.dev/) is a platform that fully automates deployments to Amazon Web Services (AWS).
-For more information on Flightcontrol's capabilities, you can [﻿visit their docs](https://www.flightcontrol.dev/docs).
+[Flightcontrol](https://www.flightcontrol.dev/) is a platform that fully automates deployments to Amazon Web Services (AWS).
+For more information on Flightcontrol's capabilities, you can [visit their docs](https://www.flightcontrol.dev/docs).
 
 ### Connecting to a git repository
 Flightcontrol offers a GitHub integration, leveraging its continuous development actions. 
@@ -18,7 +18,7 @@ It automatically detects any new pushes to your specified GitHub branches and bu
 The build process uses the commands in your `package.json` file and adheres to the settings that you have configured in Flightcontrol.
 No additional setup is needed.
 
-![DOM Change](/.eraser/pottgGTNbnJ68JsynL0w___reS6fUv66LcKWYn8yV2OvCPvwSm2___---figure---kOOK6KBGvBEOZMSPyucgL---figure---_uPqveB5iKpMo1NjAbT8Kw.png "DOM Change")
+[DOM Change](https://app.eraser.io/workspace/8FtXNYdisv9KJlujwqnT?elements=_uPqveB5iKpMo1NjAbT8Kw) 
 
 ### Using the dashboard
 1. In the Flightcontrol dashboard, create a new project and select the repository you wish to use as the source.
@@ -60,11 +60,11 @@ Below is an example configuration:
 }
 ```
 ## Cloudflare
-[﻿Cloudflare Pages](https://pages.cloudflare.com/) is a JAMstack platform for frontend developers, where JAMstack stands for JavaScript, APIs, and Markup.
-For additional details and features, you can [﻿visit the Cloudflare website](https://pages.cloudflare.com/).
+[Cloudflare Pages](https://pages.cloudflare.com/) is a JAMstack platform for frontend developers, where JAMstack stands for JavaScript, APIs, and Markup.
+For additional details and features, you can [visit the Cloudflare website](https://pages.cloudflare.com/).
 
 ### Using the Cloudflare's web interface
-1. Navigate to the [﻿Cloudflare log up page](https://dash.cloudflare.com/login)  and log in or sign up.
+1. Navigate to the [Cloudflare log up page](https://dash.cloudflare.com/login)  and log in or sign up.
 2. After logging in, find "Pages" in the left-hand navigation bar.
 Add a new project by clicking "Create a project," then choose "Connect to Git."
 3. You'll have the option to install Cloudflare Pages on all your repositories or select ones.
@@ -106,11 +106,11 @@ Make sure to navigate to the `Speed` -> `Optimization settings` section in your 
 This is important as minification and comment removal can interfere with hydration.
 
 ## Firebase
-[﻿Firebase](https://firebase.google.com/) is an all-in-one app development platform by Google, offering a range of services from real-time databases to user authentication.
-For a detailed overview of the services available, you can visit [﻿Firebase's documentation](https://firebase.google.com/docs).
+[Firebase](https://firebase.google.com/) is an all-in-one app development platform by Google, offering a range of services from real-time databases to user authentication.
+For a detailed overview of the services available, you can visit [Firebase's documentation](https://firebase.google.com/docs).
 
 Before proceeding, make sure you've already set up a project in your Firebase console.
-If haven't, you can follow [﻿Firebase's official guide](https://firebase.google.com/docs/projects/learn-more#creating-cloud-projects) to create a new Firebase project.
+If haven't, you can follow [Firebase's official guide](https://firebase.google.com/docs/projects/learn-more#creating-cloud-projects) to create a new Firebase project.
 
 ### Using the Firebase CLI Tool
 1. Use your preferred package manager to install the Firebase command-line tool with one of the following commands:
@@ -143,11 +143,11 @@ yarn global add firebase-tools
 1. Run `npm run build`  , followed by `firebase deploy`  to build and deploy your project.
 Upon completion, a `Hosting URL`  will be displayed, indicating the live deployment of your project.
 ## Netlify
-[﻿Netlify](https://www.netlify.com/) is a widely-used hosting platform suitable for various types of projects.
-For detailed guidance on build procedures, deployment options, and the range of features available, you can visit the [﻿Netlify documentation](https://docs.netlify.com/).
+[Netlify](https://www.netlify.com/) is a widely-used hosting platform suitable for various types of projects.
+For detailed guidance on build procedures, deployment options, and the range of features available, you can visit the [Netlify documentation](https://docs.netlify.com/).
 
 ### Using the Netlify Web Interface
-1. Begin by navigating to [﻿Netlify's website](https://app.netlify.com/)  and logging in or creating a new Netlify.
+1. Begin by navigating to [Netlify's website](https://app.netlify.com/)  and logging in or creating a new Netlify.
 Once logged in, you will be take to your dashboard. Click the `New site from Git`  button to start a new project.
 2. On the following page, choose "Connect to GitHub" or your preferred Git repository hosting service.
 3. After selecting your Solid project repository, you'll be directed to a configuration screen.
@@ -171,8 +171,8 @@ Authenticate using one of the supported login options.
 2. Follow the on-screen instructions from the CLI. When prompted for the 'Directory to deploy,' specify `dist`  — this is where Solid stores the built project files.
 After completing the process, your project will be deployed on Netlify and can be accessed via the provided URL.
 ## Railway
-[﻿Railway](https://railway.app/) is a well-known platform for deploying a variety of web and cloud-based projects.
-For an in-depth look at the features offered by Railway, as well as detailed deployment guidelines, you can consult the [﻿Railway documentation](https://docs.railway.app/).
+[Railway](https://railway.app/) is a well-known platform for deploying a variety of web and cloud-based projects.
+For an in-depth look at the features offered by Railway, as well as detailed deployment guidelines, you can consult the [Railway documentation](https://docs.railway.app/).
 
 ### Adjust the Start command
 To begin, you need to update the start command in your `package.json` file to make it compatible with Railway.
@@ -228,11 +228,11 @@ railway up --detach # if you prefer to avoid logs
 Your project will now be live on Railway.
 
 ## Vercel
-[﻿Vercel](https://vercel.com/) is a widely-used platform specialized in hosting frontend projects.
-For detailed information regarding build and deployment instructions, as well as features they offer, please visit the [﻿Vercel documentation](https://vercel.com/docs).
+[Vercel](https://vercel.com/) is a widely-used platform specialized in hosting frontend projects.
+For detailed information regarding build and deployment instructions, as well as features they offer, please visit the [Vercel documentation](https://vercel.com/docs).
 
 ### Using Vercel Web Interface
-1. Navigate to [﻿vercel.com/login](https://vercel.com/login)  to log in or create a new account.
+1. Navigate to [vercel.com/login](https://vercel.com/login)  to log in or create a new account.
 Connect with your preferred Git repository hosting service.
 2. Once on the dashboard, click the button at the top right corner and choose "Add New Project."
 On the next page, select "Continue with GitHub" or your preferred Git service.
@@ -258,7 +258,10 @@ vercel
 ```
 1. Follow the on-screen instructions from the CLI to finalize the deployment.
 Once completed, your project will be live on Vercel and accessible via the provided URL.
+![Architecture Diagram](/.eraser/8FtXNYdisv9KJlujwqnT___reS6fUv66LcKWYn8yV2OvCPvwSm2___---diagram----wMYAuLJ69151IF8q3dts---id---5SsD1Jh2genjDXZ8U4Xin.png "Architecture Diagram")
 
 
 
-<!--- Eraser file: https://app.eraser.io/workspace/pottgGTNbnJ68JsynL0w --->
+
+
+<!--- Eraser file: https://app.eraser.io/workspace/8FtXNYdisv9KJlujwqnT --->

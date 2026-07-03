@@ -4,9 +4,13 @@ Our architecture:
 
 [Architecture](http://localhost:3001/workspace/5rVKy8H1ESXAdZMiY8C0?elements=X7GOMj7qCefT4SKo7otJVw) 
 
-
+![Freeform](undefined "Freeform")
 
 Hello!
+
+
+
+here is a freeform
 
 
 <!-- eraser-additional-content -->

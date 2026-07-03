@@ -36,6 +36,7 @@ When a tech lead receives an issue, they should first determine its type. Once t
 ## Diagrams
 <!-- eraser-additional-files -->
 <a href="/docs/triaging-cloud-architecture-1.eraserdiagram" data-element-id="9ODXeAhKlpPDTcd3UAQNp"><img src="/.eraser/Vx3eXX9TCFFStQYs9RI5___reS6fUv66LcKWYn8yV2OvCPvwSm2___---diagram----4f379bb1c1ff19253f2fca45bf875216.png" alt="" data-element-id="9ODXeAhKlpPDTcd3UAQNp" /></a>
+<a href="/docs/triaging-entity-relationship-2.eraserdiagram" data-element-id="rdXJCq8H2rNNGt8ToIHrR"><img src="undefined" alt="" data-element-id="rdXJCq8H2rNNGt8ToIHrR" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/Vx3eXX9TCFFStQYs9RI5 --->

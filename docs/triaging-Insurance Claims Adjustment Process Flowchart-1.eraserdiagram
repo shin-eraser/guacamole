@@ -1,0 +1,811 @@
+freeform-diagram
+
+{
+  "title": "Insurance Claims Adjustment Process Flowchart",
+  "elements": [
+    {
+      "tag": "Shape",
+      "shape": "oval",
+      "texts": [
+        {
+          "text": "Customer Reports Loss",
+          "fontSize": 16
+        }
+      ],
+      "bgColor": "#E8F4FD",
+      "borderColor": "#4A90E2",
+      "id": "start",
+      "x": 325,
+      "y": 15,
+      "width": 200,
+      "height": 70
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Intake Records Details",
+          "fontSize": 15
+        },
+        {
+          "text": "Verify Policy & Coverage",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "clipboard-list",
+      "bgColor": "#F5F5F5",
+      "id": "intake",
+      "x": 325,
+      "y": 135,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "start",
+      "fromPort": "bottom",
+      "to": "intake",
+      "toPort": "top",
+      "id": "r1",
+      "x": 425,
+      "y": 87,
+      "width": 0,
+      "height": 46,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          46
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "diamond",
+      "texts": [
+        {
+          "text": "Loss Covered?",
+          "fontSize": 15
+        }
+      ],
+      "bgColor": "#FFF4E5",
+      "borderColor": "#E8A33D",
+      "id": "covered",
+      "x": 325,
+      "y": 265,
+      "width": 200,
+      "height": 110
+    },
+    {
+      "tag": "Relationship",
+      "from": "intake",
+      "fromPort": "bottom",
+      "to": "covered",
+      "toPort": "top",
+      "id": "r2",
+      "x": 425,
+      "y": 214.59548568725586,
+      "width": 0,
+      "height": 51.359741856853816,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          51.359741856853816
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Notify Customer",
+          "fontSize": 15
+        },
+        {
+          "text": "Close Case",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "x-circle",
+      "bgColor": "#FDECEC",
+      "borderColor": "#D9534F",
+      "id": "closeCase",
+      "x": 625,
+      "y": 280,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "covered",
+      "fromPort": "right",
+      "to": "closeCase",
+      "toPort": "left",
+      "label": "No",
+      "labelPlacement": {
+        "x": 47.99687228546304,
+        "y": -8,
+        "width": 17,
+        "height": 16
+      },
+      "id": "r3",
+      "x": 518.503127714537,
+      "y": 319.59548568725586,
+      "width": 104.49687228546304,
+      "height": 4.092726157978177e-12,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          104.49687228546304,
+          4.092726157978177e-12
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "oval",
+      "texts": [
+        {
+          "text": "Case Closed",
+          "fontSize": 16
+        }
+      ],
+      "bgColor": "#FDECEC",
+      "borderColor": "#D9534F",
+      "id": "endClosed",
+      "x": 625,
+      "y": 405,
+      "width": 200,
+      "height": 70
+    },
+    {
+      "tag": "Relationship",
+      "from": "closeCase",
+      "fromPort": "bottom",
+      "to": "endClosed",
+      "toPort": "top",
+      "id": "r4",
+      "x": 725,
+      "y": 359.59548568725586,
+      "width": 0,
+      "height": 43.40451431274414,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          43.40451431274414
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Assign Claims Adjuster",
+          "fontSize": 15
+        }
+      ],
+      "icon": "user-check",
+      "bgColor": "#E8F4FD",
+      "id": "assign",
+      "x": 325,
+      "y": 425,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "covered",
+      "fromPort": "bottom",
+      "to": "assign",
+      "toPort": "top",
+      "label": "Yes",
+      "labelPlacement": {
+        "x": -10.5,
+        "y": 17.493956013668594,
+        "width": 21,
+        "height": 16
+      },
+      "id": "r5",
+      "x": 425,
+      "y": 374.10152967358727,
+      "width": 0,
+      "height": 48.898470326412735,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48.898470326412735
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Request Proof",
+          "fontSize": 15
+        },
+        {
+          "text": "Photos, Receipts, Docs",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "camera",
+      "bgColor": "#F5F5F5",
+      "id": "gatherProof",
+      "x": 325,
+      "y": 555,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "assign",
+      "fromPort": "bottom",
+      "to": "gatherProof",
+      "toPort": "top",
+      "id": "r6",
+      "x": 425,
+      "y": 504.59548568725586,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "diamond",
+      "texts": [
+        {
+          "text": "Small Loss?",
+          "fontSize": 15
+        }
+      ],
+      "bgColor": "#FFF4E5",
+      "borderColor": "#E8A33D",
+      "id": "smallLoss",
+      "x": 325,
+      "y": 685,
+      "width": 200,
+      "height": 110
+    },
+    {
+      "tag": "Relationship",
+      "from": "gatherProof",
+      "fromPort": "bottom",
+      "to": "smallLoss",
+      "toPort": "top",
+      "id": "r7",
+      "x": 425,
+      "y": 634.5954856872559,
+      "width": 0,
+      "height": 51.359741856853816,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          51.359741856853816
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Schedule Inspection",
+          "fontSize": 15
+        }
+      ],
+      "icon": "calendar",
+      "bgColor": "#F5F5F5",
+      "id": "inspection",
+      "x": 15,
+      "y": 700,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "smallLoss",
+      "fromPort": "left",
+      "to": "inspection",
+      "toPort": "right",
+      "label": "No",
+      "labelPlacement": {
+        "x": -70.18773625091421,
+        "y": -8,
+        "width": 17,
+        "height": 16
+      },
+      "id": "r8",
+      "x": 331.6877362509142,
+      "y": 739.5954856872559,
+      "width": 114.68773625091421,
+      "height": 4.092726157978177e-12,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -114.68773625091421,
+          4.092726157978177e-12
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Assess Damage",
+          "fontSize": 15
+        },
+        {
+          "text": "Estimate Repair Cost",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "calculator",
+      "bgColor": "#F5F5F5",
+      "id": "assessCost",
+      "x": 325,
+      "y": 845,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "inspection",
+      "fromPort": "bottom",
+      "to": "assessCost",
+      "toPort": "left",
+      "id": "r9",
+      "x": 115,
+      "y": 779.5954856872559,
+      "width": 210,
+      "height": 105,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          105
+        ],
+        [
+          210,
+          105
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Relationship",
+      "from": "smallLoss",
+      "fromPort": "bottom",
+      "to": "assessCost",
+      "toPort": "top",
+      "label": "Yes",
+      "labelPlacement": {
+        "x": -10.5,
+        "y": 17.49395601366905,
+        "width": 21,
+        "height": 16
+      },
+      "id": "r10",
+      "x": 425,
+      "y": 794.1015296735868,
+      "width": 0,
+      "height": 48.89847032641319,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48.89847032641319
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Supervisor Review",
+          "fontSize": 15
+        }
+      ],
+      "icon": "user-cog",
+      "bgColor": "#E8F4FD",
+      "id": "supReview",
+      "x": 325,
+      "y": 975,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "assessCost",
+      "fromPort": "bottom",
+      "to": "supReview",
+      "toPort": "top",
+      "id": "r11",
+      "x": 425,
+      "y": 924.5954856872559,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Send Payout Offer",
+          "fontSize": 15
+        }
+      ],
+      "icon": "send",
+      "bgColor": "#F5F5F5",
+      "id": "sendOffer",
+      "x": 325,
+      "y": 1105,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "supReview",
+      "fromPort": "bottom",
+      "to": "sendOffer",
+      "toPort": "top",
+      "id": "r12",
+      "x": 425,
+      "y": 1054.5954856872559,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "diamond",
+      "texts": [
+        {
+          "text": "Customer Accepts?",
+          "fontSize": 15
+        }
+      ],
+      "bgColor": "#FFF4E5",
+      "borderColor": "#E8A33D",
+      "id": "accept",
+      "x": 325,
+      "y": 1235,
+      "width": 200,
+      "height": 110
+    },
+    {
+      "tag": "Relationship",
+      "from": "sendOffer",
+      "fromPort": "bottom",
+      "to": "accept",
+      "toPort": "top",
+      "id": "r13",
+      "x": 425,
+      "y": 1184.5954856872559,
+      "width": 0,
+      "height": 51.359741856853816,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          51.359741856853816
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Re-evaluate Claim",
+          "fontSize": 15
+        },
+        {
+          "text": "Revise Offer",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "refresh-cw",
+      "bgColor": "#FDF5E6",
+      "borderColor": "#E8A33D",
+      "id": "renegotiate",
+      "x": 15,
+      "y": 1250,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "accept",
+      "fromPort": "left",
+      "to": "renegotiate",
+      "toPort": "right",
+      "label": "No",
+      "labelPlacement": {
+        "x": -70.18773625091421,
+        "y": -8,
+        "width": 17,
+        "height": 16
+      },
+      "id": "r14",
+      "x": 331.6877362509142,
+      "y": 1289.5954856872559,
+      "width": 114.68773625091421,
+      "height": 4.092726157978177e-12,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -114.68773625091421,
+          4.092726157978177e-12
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Relationship",
+      "from": "renegotiate",
+      "fromPort": "top",
+      "to": "sendOffer",
+      "toPort": "left",
+      "label": "Revised Offer",
+      "labelPlacement": {
+        "x": 65.5,
+        "y": -113,
+        "width": 79,
+        "height": 16
+      },
+      "id": "r15",
+      "x": 115,
+      "y": 1249.5954856872559,
+      "width": 210,
+      "height": 105,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -105
+        ],
+        [
+          210,
+          -105
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Payments Team",
+          "fontSize": 15
+        },
+        {
+          "text": "Disburse Funds",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "dollar-sign",
+      "bgColor": "#E8F5E9",
+      "borderColor": "#5CB85C",
+      "id": "pay",
+      "x": 325,
+      "y": 1395,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "accept",
+      "fromPort": "bottom",
+      "to": "pay",
+      "toPort": "top",
+      "label": "Yes",
+      "labelPlacement": {
+        "x": -10.5,
+        "y": 17.49395601366905,
+        "width": 21,
+        "height": 16
+      },
+      "id": "r16",
+      "x": 425,
+      "y": 1344.1015296735868,
+      "width": 0,
+      "height": 48.89847032641319,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48.89847032641319
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    },
+    {
+      "tag": "Shape",
+      "shape": "oval",
+      "texts": [
+        {
+          "text": "Claim Complete",
+          "fontSize": 16
+        }
+      ],
+      "bgColor": "#E8F5E9",
+      "borderColor": "#5CB85C",
+      "id": "complete",
+      "x": 325,
+      "y": 1525,
+      "width": 200,
+      "height": 70
+    },
+    {
+      "tag": "Relationship",
+      "from": "pay",
+      "fromPort": "bottom",
+      "to": "complete",
+      "toPort": "top",
+      "id": "r17",
+      "x": 425,
+      "y": 1474.5954856872559,
+      "width": 0,
+      "height": 48.40451431274414,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48.40451431274414
+        ]
+      ],
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Our architecture:
 
 [Architecture](http://localhost:3001/workspace/5rVKy8H1ESXAdZMiY8C0?elements=X7GOMj7qCefT4SKo7otJVw) 
 
-![Freeform](undefined "Freeform")
+![Freeform](/.eraser/5rVKy8H1ESXAdZMiY8C0___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---eW0vzNfJTqefj88FnkKIc---id---sJ_dkHtTQ4rss6vKFcs1n.png "Freeform")
 
 Hello!
 
@@ -24,9 +24,8 @@ I added some more stuff here
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/docs/System Overview-Freeform-1.eraserdiagram" data-element-id="sJ_dkHtTQ4rss6vKFcs1n"><img src="undefined" alt="" data-element-id="sJ_dkHtTQ4rss6vKFcs1n" /></a>
-<a href="/docs/System Overview-cloud-architecture-2.eraserdiagram" data-element-id="A6C7D8Y-EIjZzpWcGZXlh"><img src="undefined" alt="" data-element-id="A6C7D8Y-EIjZzpWcGZXlh" /></a>
-<a href="/docs/System Overview-entity-relationship-3.eraserdiagram" data-element-id="XY86U7PMpMhnhb0KhhNXH"><img src="undefined" alt="" data-element-id="XY86U7PMpMhnhb0KhhNXH" /></a>
+<a href="/docs/System Overview-cloud-architecture-1.eraserdiagram" data-element-id="A6C7D8Y-EIjZzpWcGZXlh"><img src="/.eraser/5rVKy8H1ESXAdZMiY8C0___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----c51a22ed79f6ac0c2a2e9c2bcb7d06da.png" alt="" data-element-id="A6C7D8Y-EIjZzpWcGZXlh" /></a>
+<a href="/docs/System Overview-entity-relationship-2.eraserdiagram" data-element-id="XY86U7PMpMhnhb0KhhNXH"><img src="/.eraser/5rVKy8H1ESXAdZMiY8C0___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----19ab055a129fc094491a5695c63657a0.png" alt="" data-element-id="XY86U7PMpMhnhb0KhhNXH" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: http://localhost:3001/workspace/5rVKy8H1ESXAdZMiY8C0 --->

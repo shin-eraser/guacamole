@@ -10,7 +10,7 @@ When an issue is opened, it will be labeled as one of the following:
 - `**feature**`  : A proposal or request for a new functionality or enhancement in the project.
 - `**question**`  : A request for further information or clarification about the project.
 ### Issue Triaging Flow
-![Insurance Claims Adjustment Process Flowchart](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---m_oLpq9WC4gS9uOmawwJn---id---z9A5D8gybkVCoKJvBUigZ.png "Insurance Claims Adjustment Process Flowchart")
+![Insurance Claims Adjustment Process Flowchart](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----ATKjecu7Rr-keidUc-Ue---id---z9A5D8gybkVCoKJvBUigZ.png "Insurance Claims Adjustment Process Flowchart")
 
 
 
@@ -33,7 +33,7 @@ When a tech lead receives an issue, they should first determine its type. Once t
 
 
 2. **Question**:
-    - If an issue is labeled as a `**question**`  , the tech lead or a relevant expert from the team should provide the necessary clarifications or answers. Once resolved, the issue can be closed...
+    - If an issue is labeled as a `**question**`  , the tech lead or a relevant expert from the team should provide the necessary clarifications or answers. Once resolved, the issue can be closed...!!!
 
 
 

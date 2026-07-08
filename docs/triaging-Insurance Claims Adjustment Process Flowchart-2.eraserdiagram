@@ -1,0 +1,213 @@
+freeform-diagram
+
+{
+  "title": "Insurance Claims Adjustment Process Flowchart",
+  "elements": [
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Intake Records Details",
+          "fontSize": 15
+        },
+        {
+          "text": "Verify Policy & Coverage",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "clipboard-list",
+      "bgColor": "#F5F5F5",
+      "id": "intake",
+      "x": 15,
+      "y": 135,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Assign Claims Adjuster",
+          "fontSize": 15
+        }
+      ],
+      "icon": "user-check",
+      "bgColor": "#E8F4FD",
+      "id": "assign",
+      "x": 15,
+      "y": 425,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Shape",
+      "shape": "oval",
+      "texts": [
+        {
+          "text": "Customer Reports Loss",
+          "fontSize": 16
+        }
+      ],
+      "bgColor": "#E8F4FD",
+      "borderColor": "#4A90E2",
+      "id": "start",
+      "x": 15,
+      "y": 15,
+      "width": 200,
+      "height": 70
+    },
+    {
+      "tag": "Relationship",
+      "from": "start",
+      "fromPort": "bottom",
+      "to": "intake",
+      "toPort": "top",
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75,
+      "id": "r1",
+      "x": 115,
+      "y": 87,
+      "width": 0,
+      "height": 46,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "tag": "Shape",
+      "shape": "rectangle",
+      "texts": [
+        {
+          "text": "Request Proof",
+          "fontSize": 15
+        },
+        {
+          "text": "Photos, Receipts, Docs",
+          "fontSize": 12,
+          "color": "gray"
+        }
+      ],
+      "icon": "camera",
+      "bgColor": "#F5F5F5",
+      "id": "gatherProof",
+      "x": 15,
+      "y": 555,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "tag": "Relationship",
+      "from": "assign",
+      "fromPort": "bottom",
+      "to": "gatherProof",
+      "toPort": "top",
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75,
+      "id": "r6",
+      "x": 115,
+      "y": 504.59548568725586,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    {
+      "tag": "Shape",
+      "shape": "diamond",
+      "texts": [
+        {
+          "text": "Loss Covered?",
+          "fontSize": 15
+        }
+      ],
+      "bgColor": "#FFF4E5",
+      "borderColor": "#E8A33D",
+      "id": "covered",
+      "x": 15,
+      "y": 265,
+      "width": 200,
+      "height": 110
+    },
+    {
+      "tag": "Relationship",
+      "from": "covered",
+      "fromPort": "bottom",
+      "to": "assign",
+      "toPort": "top",
+      "label": "Yes",
+      "labelPlacement": {
+        "x": -10.5,
+        "y": 17.493956013668708,
+        "width": 21,
+        "height": 16
+      },
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75,
+      "id": "r5",
+      "x": 115,
+      "y": 374.10152967358727,
+      "width": 0,
+      "height": 48.89847032641285,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48.89847032641285
+        ]
+      ]
+    },
+    {
+      "tag": "Relationship",
+      "from": "intake",
+      "fromPort": "bottom",
+      "to": "covered",
+      "toPort": "top",
+      "endArrowhead": "triangle",
+      "lineStyle": "solid",
+      "color": "#1c1c1c",
+      "lineWidth": 0.75,
+      "id": "r2",
+      "x": 115,
+      "y": 214.59548568725586,
+      "width": 0,
+      "height": 51.35974185685393,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          51.35974185685393
+        ]
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ When an issue is opened, it will be labeled as one of the following:
 - `**question**`  : A request for further information or clarification about the project.
 [Freeform](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?diagram=fMw91MHXX0IFh_Ft2U4BJ) 
 ### Issue Triaging Flow
-[Triage Flow](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?elements=PC72Pg5SgOPWn7TLrVkoBg) 
+![Freeform](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---_AfCnyu7EqGp1PqZcixvR---id---fMw91MHXX0IFh_Ft2U4BJ.png "Freeform")
 
 When a tech lead receives an issue, they should first determine its type. Once the type is identified, they can then proceed with the following steps:
 
@@ -36,9 +36,9 @@ When a tech lead receives an issue, they should first determine its type. Once t
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/docs/triaging-Freeform-1.eraserdiagram" data-element-id="fMw91MHXX0IFh_Ft2U4BJ"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----c230628c3197be05a8109188eaba2cab-Freeform.png" alt="" data-element-id="fMw91MHXX0IFh_Ft2U4BJ" /></a>
-<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-2.eraserdiagram" data-element-id="3TGhbxJr3fKCcjxjxWkWA"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----1dd6a201e8861b7cf9ae28e946d75016-Insurance-Claims-Adjustment-Process-Flowchart.png" alt="" data-element-id="3TGhbxJr3fKCcjxjxWkWA" /></a>
-<a href="/docs/triaging-sequence-diagram-3.eraserdiagram" data-element-id="uUWsu5LwaJxOzlMMEayXV"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----ca5314c366e95f74911af34801bef7e9.png" alt="" data-element-id="uUWsu5LwaJxOzlMMEayXV" /></a>
+<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-1.eraserdiagram" data-element-id="3TGhbxJr3fKCcjxjxWkWA"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----1dd6a201e8861b7cf9ae28e946d75016-Insurance-Claims-Adjustment-Process-Flowchart.png" alt="" data-element-id="3TGhbxJr3fKCcjxjxWkWA" /></a>
+<a href="/docs/triaging-sequence-diagram-2.eraserdiagram" data-element-id="uUWsu5LwaJxOzlMMEayXV"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----ca5314c366e95f74911af34801bef7e9.png" alt="" data-element-id="uUWsu5LwaJxOzlMMEayXV" /></a>
+<a href="/docs/triaging-Freeform-embedded-1.eraserdiagram" data-element-id="fMw91MHXX0IFh_Ft2U4BJ"></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe --->

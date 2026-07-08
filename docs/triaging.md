@@ -9,7 +9,6 @@ When an issue is opened, it will be labeled as one of the following:
 - `**bug**`  : Unconfirmed issue with the internal project.
 - `**feature**`  : A proposal or request for a new functionality or enhancement in the project.
 - `**question**`  : A request for further information or clarification about the project.
-[Freeform](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?diagram=fMw91MHXX0IFh_Ft2U4BJ) 
 ### Issue Triaging Flow
 
 

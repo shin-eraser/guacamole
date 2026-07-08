@@ -13,7 +13,7 @@ When an issue is opened, it will be labeled as one of the following:
 ### Issue Triaging Flow
 
 
-![Entity Relationship Diagram](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---T8qxzdYASmF6IaCt1l63O---id---72Y9IgNPGBlFEAwkigjoT.png "Entity Relationship Diagram")
+
 
 
 
@@ -25,7 +25,7 @@ When a tech lead receives an issue, they should first determine its type. Once t
         - **No**: If the bug does not have reproducible steps, label it as `**Ask for repro**`  . The tech lead or a team member should ask the issue reporter for more detailed steps or examples that can lead to reproduction of the bug.
 
 
-![Insurance Claims Adjustment Process Flowchart](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---5ae9AIK_xAzKSc0D-Ol5N---id---z9A5D8gybkVCoKJvBUigZ.png "Insurance Claims Adjustment Process Flowchart")
+
 
 1. **Feature**:
     - **Well Specced?**: Before moving forward with a feature request, it's crucial to ensure the proposal is well-defined, clear, and feasible.
@@ -43,8 +43,8 @@ When a tech lead receives an issue, they should first determine its type. Once t
 ## Diagrams
 <!-- eraser-additional-files -->
 <a href="/docs/triaging-Freeform-1.eraserdiagram" data-element-id="X6qLQBABemAxsKvAnoHf1"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----d7a1d3e6604bc1b80cf58fb15965c1e9-Freeform.png" alt="" data-element-id="X6qLQBABemAxsKvAnoHf1" /></a>
-<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-embedded-1.eraserdiagram" data-element-id="z9A5D8gybkVCoKJvBUigZ"></a>
-<a href="/docs/triaging-entity-relationship-embedded-2.eraserdiagram" data-element-id="72Y9IgNPGBlFEAwkigjoT"></a>
+<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-2.eraserdiagram" data-element-id="z9A5D8gybkVCoKJvBUigZ"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----b586f8c45d5c3760df1a6c022660d913-Insurance-Claims-Adjustment-Process-Flowchart.png" alt="" data-element-id="z9A5D8gybkVCoKJvBUigZ" /></a>
+<a href="/docs/triaging-entity-relationship-3.eraserdiagram" data-element-id="72Y9IgNPGBlFEAwkigjoT"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----19ab055a129fc094491a5695c63657a0.png" alt="" data-element-id="72Y9IgNPGBlFEAwkigjoT" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe --->

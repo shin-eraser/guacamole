@@ -5,10 +5,5 @@ Docs
 wefewfw\wefewfew
 
 
-<!-- eraser-additional-content -->
-## Diagrams
-<!-- eraser-additional-files -->
-<a href="/docs/System Overview-entity-relationship-1.eraserdiagram" data-element-id="MZ_Ec6rugEFr02E-Nz-pN"></a>
-<!-- end-eraser-additional-files -->
-<!-- end-eraser-additional-content -->
+
 <!--- Eraser file: https://qa.eraser.io/workspace/5rVKy8H1ESXAdZMiY8C0 --->

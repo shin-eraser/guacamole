@@ -1,4 +1,4 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/Vx3eXX9TCFFStQYs9RI5" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+<p><a target="_blank" href="http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 Respective tech leads are responsible for triaging every issue and PR opened in the internal repository within a reasonable turnaround time.
 
@@ -9,8 +9,9 @@ When an issue is opened, it will be labeled as one of the following:
 - `**bug**`  : Unconfirmed issue with the internal project.
 - `**feature**`  : A proposal or request for a new functionality or enhancement in the project.
 - `**question**`  : A request for further information or clarification about the project.
+[Freeform](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?diagram=fMw91MHXX0IFh_Ft2U4BJ) 
 ### Issue Triaging Flow
-[Triage Flow](https://app.eraser.io/workspace/Vx3eXX9TCFFStQYs9RI5?elements=PC72Pg5SgOPWn7TLrVkoBg) 
+[Triage Flow](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?elements=PC72Pg5SgOPWn7TLrVkoBg) 
 
 When a tech lead receives an issue, they should first determine its type. Once the type is identified, they can then proceed with the following steps:
 
@@ -35,8 +36,9 @@ When a tech lead receives an issue, they should first determine its type. Once t
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/docs/triaging-cloud-architecture-1.eraserdiagram" data-element-id="9ODXeAhKlpPDTcd3UAQNp"><img src="/.eraser/Vx3eXX9TCFFStQYs9RI5___reS6fUv66LcKWYn8yV2OvCPvwSm2___---diagram----4f379bb1c1ff19253f2fca45bf875216.png" alt="" data-element-id="9ODXeAhKlpPDTcd3UAQNp" /></a>
-<a href="/docs/triaging-entity-relationship-2.eraserdiagram" data-element-id="rdXJCq8H2rNNGt8ToIHrR"><img src="undefined" alt="" data-element-id="rdXJCq8H2rNNGt8ToIHrR" /></a>
+<a href="/docs/triaging-Freeform-1.eraserdiagram" data-element-id="fMw91MHXX0IFh_Ft2U4BJ"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----c230628c3197be05a8109188eaba2cab-Freeform.png" alt="" data-element-id="fMw91MHXX0IFh_Ft2U4BJ" /></a>
+<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-2.eraserdiagram" data-element-id="3TGhbxJr3fKCcjxjxWkWA"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----1dd6a201e8861b7cf9ae28e946d75016-Insurance-Claims-Adjustment-Process-Flowchart.png" alt="" data-element-id="3TGhbxJr3fKCcjxjxWkWA" /></a>
+<a href="/docs/triaging-sequence-diagram-3.eraserdiagram" data-element-id="uUWsu5LwaJxOzlMMEayXV"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----ca5314c366e95f74911af34801bef7e9.png" alt="" data-element-id="uUWsu5LwaJxOzlMMEayXV" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
-<!--- Eraser file: https://app.eraser.io/workspace/Vx3eXX9TCFFStQYs9RI5 --->
+<!--- Eraser file: http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe --->

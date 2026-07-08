@@ -10,7 +10,7 @@ When an issue is opened, it will be labeled as one of the following:
 - `**feature**`  : A proposal or request for a new functionality or enhancement in the project.
 - `**question**`  : A request for further information or clarification about the project.
 ### Issue Triaging Flow
-
+![Insurance Claims Adjustment Process Flowchart](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---m_oLpq9WC4gS9uOmawwJn---id---z9A5D8gybkVCoKJvBUigZ.png "Insurance Claims Adjustment Process Flowchart")
 
 
 
@@ -41,9 +41,9 @@ When a tech lead receives an issue, they should first determine its type. Once t
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-1.eraserdiagram" data-element-id="z9A5D8gybkVCoKJvBUigZ"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----b586f8c45d5c3760df1a6c022660d913-Insurance-Claims-Adjustment-Process-Flowchart.png" alt="" data-element-id="z9A5D8gybkVCoKJvBUigZ" /></a>
-<a href="/docs/triaging-entity-relationship-2.eraserdiagram" data-element-id="72Y9IgNPGBlFEAwkigjoT"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----19ab055a129fc094491a5695c63657a0.png" alt="" data-element-id="72Y9IgNPGBlFEAwkigjoT" /></a>
-<a href="/docs/triaging-Freeform-3.eraserdiagram" data-element-id="yNHVAKNv236hL92o0AGLk"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----c28b3195bb5f0ad3b4105415fc5bf2d0-Freeform.png" alt="" data-element-id="yNHVAKNv236hL92o0AGLk" /></a>
+<a href="/docs/triaging-entity-relationship-1.eraserdiagram" data-element-id="72Y9IgNPGBlFEAwkigjoT"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----19ab055a129fc094491a5695c63657a0.png" alt="" data-element-id="72Y9IgNPGBlFEAwkigjoT" /></a>
+<a href="/docs/triaging-Freeform-2.eraserdiagram" data-element-id="yNHVAKNv236hL92o0AGLk"><img src="/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram----c28b3195bb5f0ad3b4105415fc5bf2d0-Freeform.png" alt="" data-element-id="yNHVAKNv236hL92o0AGLk" /></a>
+<a href="/docs/triaging-Insurance Claims Adjustment Process Flowchart-embedded-1.eraserdiagram" data-element-id="z9A5D8gybkVCoKJvBUigZ"></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe --->

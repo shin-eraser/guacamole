@@ -11,7 +11,7 @@ When an issue is opened, it will be labeled as one of the following:
 - `**question**`  : A request for further information or clarification about the project.
 [Freeform](http://localhost:3001/workspace/5xfVcEI3FG2vqm7esAZe?diagram=fMw91MHXX0IFh_Ft2U4BJ) 
 ### Issue Triaging Flow
-![Freeform](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---_AfCnyu7EqGp1PqZcixvR---id---fMw91MHXX0IFh_Ft2U4BJ.png "Freeform")
+![Freeform](/.eraser/5xfVcEI3FG2vqm7esAZe___SOIiXh9tGmdtfE1u0fwNIY8EzVm1___---diagram---0VaE9L6di0YJuCk9RHTXG---id---fMw91MHXX0IFh_Ft2U4BJ.png "Freeform")
 
 When a tech lead receives an issue, they should first determine its type. Once the type is identified, they can then proceed with the following steps:
 
@@ -28,7 +28,7 @@ When a tech lead receives an issue, they should first determine its type. Once t
 
 
 3. **Question**:
-    - If an issue is labeled as a `**question**`  , the tech lead or a relevant expert from the team should provide the necessary clarifications or answers. Once resolved, the issue can be closed.
+    - If an issue is labeled as a `**question**`  , the tech lead or a relevant expert from the team should provide the necessary clarifications or answers. Once resolved, the issue can be closed...
 
 
 

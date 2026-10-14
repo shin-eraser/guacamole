@@ -1,0 +1,117 @@
+sequence-diagram
+
+title Synthetic Checkout Sequence
+Customer [icon: user, color: blue]
+Web App [icon: monitor, color: blue]
+API Gateway [icon: aws-api-gateway, color: orange]
+Orders Service [icon: server, color: orange]
+Pricing Engine [icon: calculator, color: purple]
+Payments [icon: credit-card, color: green]
+Card Network [icon: globe, color: green]
+Inventory [icon: package, color: yellow]
+Event Bus [icon: aws-eventbridge, color: gray]
+Notifications [icon: mail, color: red]
+Customer > Web App: Step 1 request with a moderately long label
+Web App > API Gateway: Step 2 request with a moderately long label
+API Gateway > Orders Service: Step 3 request with a moderately long label
+Orders Service > Pricing Engine: Step 4 request with a moderately long label
+Pricing Engine --> Orders Service: Step 5 request with a moderately long label
+alt [label: payment authorized, color: green] {
+Orders Service > Payments: Step 6 request with a moderately long label
+Payments > Card Network: Step 7 request with a moderately long label
+Card Network --> Payments: Step 8 request with a moderately long label
+Payments --> Orders Service: Step 9 request with a moderately long label
+}
+else [label: payment declined, color: red] {
+Orders Service > Payments: Step 10 request with a moderately long label
+Payments --> Orders Service: Step 11 request with a moderately long label
+Orders Service --> Web App: Step 12 request with a moderately long label
+}
+loop [label: reserve each line item] {
+Orders Service > Inventory: Step 13 request with a moderately long label
+Inventory --> Orders Service: Step 14 request with a moderately long label
+}
+Orders Service > Event Bus: Step 15 request with a moderately long label
+Event Bus > Notifications: Step 16 request with a moderately long label
+Notifications > Customer: Step 17 request with a moderately long label
+Orders Service --> API Gateway: Step 18 request with a moderately long label
+API Gateway --> Web App: Step 19 request with a moderately long label
+Web App --> Customer: Step 20 request with a moderately long label
+Customer > Web App: Step 21 request with a moderately long label
+Web App > API Gateway: Step 22 request with a moderately long label
+API Gateway > Orders Service: Step 23 request with a moderately long label
+Orders Service > Pricing Engine: Step 24 request with a moderately long label
+Pricing Engine --> Orders Service: Step 25 request with a moderately long label
+alt [label: payment authorized, color: green] {
+Orders Service > Payments: Step 26 request with a moderately long label
+Payments > Card Network: Step 27 request with a moderately long label
+Card Network --> Payments: Step 28 request with a moderately long label
+Payments --> Orders Service: Step 29 request with a moderately long label
+}
+else [label: payment declined, color: red] {
+Orders Service > Payments: Step 30 request with a moderately long label
+Payments --> Orders Service: Step 31 request with a moderately long label
+Orders Service --> Web App: Step 32 request with a moderately long label
+}
+loop [label: reserve each line item] {
+Orders Service > Inventory: Step 33 request with a moderately long label
+Inventory --> Orders Service: Step 34 request with a moderately long label
+}
+Orders Service > Event Bus: Step 35 request with a moderately long label
+Event Bus > Notifications: Step 36 request with a moderately long label
+Notifications > Customer: Step 37 request with a moderately long label
+Orders Service --> API Gateway: Step 38 request with a moderately long label
+API Gateway --> Web App: Step 39 request with a moderately long label
+Web App --> Customer: Step 40 request with a moderately long label
+Customer > Web App: Step 41 request with a moderately long label
+Web App > API Gateway: Step 42 request with a moderately long label
+API Gateway > Orders Service: Step 43 request with a moderately long label
+Orders Service > Pricing Engine: Step 44 request with a moderately long label
+Pricing Engine --> Orders Service: Step 45 request with a moderately long label
+alt [label: payment authorized, color: green] {
+Orders Service > Payments: Step 46 request with a moderately long label
+Payments > Card Network: Step 47 request with a moderately long label
+Card Network --> Payments: Step 48 request with a moderately long label
+Payments --> Orders Service: Step 49 request with a moderately long label
+}
+else [label: payment declined, color: red] {
+Orders Service > Payments: Step 50 request with a moderately long label
+Payments --> Orders Service: Step 51 request with a moderately long label
+Orders Service --> Web App: Step 52 request with a moderately long label
+}
+loop [label: reserve each line item] {
+Orders Service > Inventory: Step 53 request with a moderately long label
+Inventory --> Orders Service: Step 54 request with a moderately long label
+}
+Orders Service > Event Bus: Step 55 request with a moderately long label
+Event Bus > Notifications: Step 56 request with a moderately long label
+Notifications > Customer: Step 57 request with a moderately long label
+Orders Service --> API Gateway: Step 58 request with a moderately long label
+API Gateway --> Web App: Step 59 request with a moderately long label
+Web App --> Customer: Step 60 request with a moderately long label
+Customer > Web App: Step 61 request with a moderately long label
+Web App > API Gateway: Step 62 request with a moderately long label
+API Gateway > Orders Service: Step 63 request with a moderately long label
+Orders Service > Pricing Engine: Step 64 request with a moderately long label
+Pricing Engine --> Orders Service: Step 65 request with a moderately long label
+alt [label: payment authorized, color: green] {
+Orders Service > Payments: Step 66 request with a moderately long label
+Payments > Card Network: Step 67 request with a moderately long label
+Card Network --> Payments: Step 68 request with a moderately long label
+Payments --> Orders Service: Step 69 request with a moderately long label
+}
+else [label: payment declined, color: red] {
+Orders Service > Payments: Step 70 request with a moderately long label
+Payments --> Orders Service: Step 71 request with a moderately long label
+Orders Service --> Web App: Step 72 request with a moderately long label
+}
+loop [label: reserve each line item] {
+Orders Service > Inventory: Step 73 request with a moderately long label
+Inventory --> Orders Service: Step 74 request with a moderately long label
+}
+Orders Service > Event Bus: Step 75 request with a moderately long label
+Event Bus > Notifications: Step 76 request with a moderately long label
+Notifications > Customer: Step 77 request with a moderately long label
+Orders Service --> API Gateway: Step 78 request with a moderately long label
+API Gateway --> Web App: Step 79 request with a moderately long label
+Web App --> Customer: Step 80 request with a moderately long label

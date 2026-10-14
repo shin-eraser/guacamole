@@ -1,0 +1,77 @@
+cloud-architecture-diagram
+
+title Synthetic Platform
+direction right
+Users [icon: users]
+Partners [icon: briefcase]
+AWS Cloud [icon: aws] {
+  Edge [icon: aws-cloudfront] {
+    CDN [icon: aws-cloudfront]
+    WAF [icon: aws-waf]
+    DNS [icon: aws-route-53]
+    Shield [icon: aws-shield]
+    Certs [icon: aws-certificate-manager]
+    Edge Cache [icon: server]
+  }
+  Web Tier [icon: aws-ec2] {
+    ALB [icon: aws-elastic-load-balancing]
+    Web A [icon: aws-ec2]
+    Web B [icon: aws-ec2]
+    Web C [icon: aws-ec2]
+    Session Cache [icon: aws-elasticache]
+    Static Assets [icon: aws-s3]
+  }
+  Services [icon: aws-ecs] {
+    Orders [icon: aws-ecs]
+    Pricing [icon: aws-lambda]
+    Payments [icon: aws-ecs]
+    Inventory [icon: aws-ecs]
+    Search [icon: aws-opensearch-service]
+    Auth [icon: aws-cognito]
+  }
+  Messaging [icon: aws-sqs] {
+    Order Queue [icon: aws-sqs]
+    Event Bus [icon: aws-eventbridge]
+    Stream [icon: aws-kinesis]
+    Notifier [icon: aws-sns]
+    DLQ [icon: aws-sqs]
+    Scheduler [icon: aws-eventbridge]
+  }
+  Data [icon: aws-rds] {
+    Orders DB [icon: aws-rds]
+    Catalog DB [icon: aws-dynamodb]
+    Warehouse [icon: aws-redshift]
+    Lake [icon: aws-s3]
+    Backups [icon: aws-backup]
+    Analytics [icon: aws-athena]
+  }
+}
+Users > CDN: HTTPS
+Partners > DNS: API calls
+CDN > ALB: origin
+WAF > ALB
+DNS > CDN
+ALB > ALB
+ALB > Web A
+ALB > Web B
+ALB > Web C
+ALB > Session Cache
+ALB > ALB
+ALB > Pricing: flow 1.0
+Web A > Inventory: flow 1.1
+Web B > Auth: flow 1.2
+Web C > Pricing: flow 1.3
+Session Cache > Inventory: flow 1.4
+Static Assets > Auth: flow 1.5
+Orders > Stream: flow 2.0
+Pricing > DLQ: flow 2.1
+Payments > Order Queue: flow 2.2
+Inventory > Stream: flow 2.3
+Search > DLQ: flow 2.4
+Auth > Order Queue: flow 2.5
+Order Queue > Lake: flow 3.0
+Event Bus > Analytics: flow 3.1
+Stream > Catalog DB: flow 3.2
+Notifier > Lake: flow 3.3
+DLQ > Analytics: flow 3.4
+Scheduler > Catalog DB: flow 3.5
